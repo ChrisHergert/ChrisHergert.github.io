@@ -1,3 +1,11 @@
+---
+layout: post
+title: "On Getting Up and Running with Pip in Debian Trixie"
+description: "Setting up Python/Pip on a fresh Debian Trixie installation"
+tags:
+  - Blogging
+---
+
 ## On Getting Up and Running with Pip in Debian Trixie
 
 I finally gave in and restarted my blog from years ago, mainly due to the difficulty getting up and running with pip on the latest iteration of Debian Trixie (or Debian 13, for the numerical purists out there). Trixies originally released on 2025/08/13 and the image I'm using is from the most recent release (13.3, released 2026/01/10). This is, as of this time of writing, a capable release that's simply not kind to new Deb users who are accustomed to simply `sudo add-apt-repository` to add the `universe` repo and get running, you're going to have to get familiar with how `apt` does repository lists. 
