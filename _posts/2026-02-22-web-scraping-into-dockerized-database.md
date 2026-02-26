@@ -3,12 +3,10 @@ layout: post
 title: "Scraping Weather Prediction Data - Part I"
 description: "Walking through setting up the data lake table and scraping script for weather prediction data"
 tags:
-  - jekyll
-  - github-pages
-  - blogging
+  - Blogging
 ---
 
-## Intro
+## Scraping Weather Prediction Data - Part I
 
 So, now that I've got a MySQL instance running locally on my homelab, I've started scraping raw weather data into the database. This is based on the Open-Meteo weather prediction engine, mostly because they make their web API available for public consumption.
 
